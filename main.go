@@ -25,9 +25,9 @@ func main() {
 			ctx.StreamWriter(func(w io.Writer) bool {
 				written, err := io.Copy(w, res.Body)
 				if written >= res.ContentLength || err != nil {
-					return true // continue write
-				} else  {
 					return false // close and flush
+				} else  {
+					return true // continue write
 				}
 			})
 		}
