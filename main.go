@@ -5,14 +5,17 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"strings"
 )
 
 func main() {
 	app := iris.New()
 	url := "http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf"
+	tokens := strings.Split(url, "/")
+	fileName := tokens[len(tokens) - 1]
 
-	app.Get("/", func(ctx iris.Context) {
-		ctx.ContentType("text/html")
+	app.Get("/" + fileName, func(ctx iris.Context) {
+		ctx.ContentType("application/octet-stream")
 		ctx.Header("Transfer-Encoding", "chunked")
 
 		res, err := http.Get(url)

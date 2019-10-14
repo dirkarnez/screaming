@@ -18,12 +18,12 @@
   revision = "74b38d55f37af5d6c05ca11147d616b613a3420e"
 
 [[projects]]
-  digest = "1:5803f73e8574ed21d2d746b4abe020acea49e64838dcc97c8ae76e3b93f36964"
+  branch = "master"
+  digest = "1:61746b23317825f35d27a5e3d70a59ab21890f32f418b3895f629de2f4f992f1"
   name = "github.com/CloudyKit/jet"
   packages = ["."]
   pruneopts = "UT"
-  revision = "2b064536b25ab0e9c54245f9e2cc5bd4766033fe"
-  version = "v2.1.2"
+  revision = "62edd43e4f88c6be452fd5feac77f716f546ebf6"
 
 [[projects]]
   digest = "1:dbb586456d6abd7aa1e0f093fcd697e7196289dabc014e4881fa310083a49e8b"
@@ -74,12 +74,12 @@
   version = "v1.1.0"
 
 [[projects]]
-  digest = "1:434aab943cc1c082c9df36bd4b1f107d9ef4af930d2ce13d3f2eb008df9196f0"
+  branch = "master"
+  digest = "1:26bbc079845bd5a2e718a273b6a2f746af02ee4055a7ff58d0980085e7642748"
   name = "github.com/flosch/pongo2"
   packages = ["."]
   pruneopts = "UT"
-  revision = "5e81b817a0c48c1c57cdf1a9056cf76bdee02ca9"
-  version = "v3.0"
+  revision = "bbf5a6c351f4d4e883daa40046a404d7553e0a00"
 
 [[projects]]
   digest = "1:8a2a940fd81980cd5394dbb60a8f9ab49b5d8195e52cddec562b9a40eab394f0"
@@ -115,6 +115,14 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:b4d783f3ef044e8fd22ccaf4894bb5a3fc2d4a31854e10bbb042f9cd305510e5"
+  name = "github.com/juju/errors"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "d42613fe1ab9e303fc850e7a19fda2e8eeb6516e"
+
+[[projects]]
+  branch = "master"
   digest = "1:7596a38177f67a655281d711cc69fa4019e08d3690179e3a3c1aa201aab19cf8"
   name = "github.com/kataras/golog"
   packages = ["."]
@@ -122,7 +130,8 @@
   revision = "99c81de45f403416908e06cb97b0811a4306bc6b"
 
 [[projects]]
-  digest = "1:046f597e5d0be97802341d35fecdc892ef9003595b0aea48f297c51cb12d34d4"
+  branch = "master"
+  digest = "1:1ece97a0f9b1de5477316ee8bae4aff5908baa241b9bebacdcd2133d22791435"
   name = "github.com/kataras/iris"
   packages = [
     ".",
@@ -151,8 +160,7 @@
     "view",
   ]
   pruneopts = "UT"
-  revision = "d466f8cd92e19a766a87d0ab22f2d6269cff5dec"
-  version = "v11.2.8"
+  revision = "c8e73f4f4df2c725f91f8aa659f9f60a7154c039"
 
 [[projects]]
   branch = "master"
