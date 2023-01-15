@@ -5,6 +5,7 @@ screaming
 - https://github.com/dirkarnez/internal-midi-to-synthesia/blob/master/main.go
 
 ### Issues
+- Kill ffmpeg when SIGTERM
 - MP4 Streaming
   - [video - FFMpeg FTP output issue, can't output to MP4 format - Super User](https://superuser.com/questions/663872/ffmpeg-ftp-output-issue-cant-output-to-mp4-format)
   - [muxer does not support non seekable output · Issue #344 · fluent-ffmpeg/node-fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg/issues/344)
